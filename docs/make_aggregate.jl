@@ -187,6 +187,5 @@ MultiDocumenter.make(
         engine = MultiDocumenter.FlexSearch
     ),
     custom_scripts = [analytics_script],
-    brand_image = MultiDocumenter.BrandImage("https://sciml.ai",
-                                             joinpath("assets","logo.png"))
+    brand_image = MultiDocumenter.BrandImage("/", joinpath("assets","logo.png"))
 )
